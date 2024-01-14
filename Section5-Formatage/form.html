@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formation Bootstrap - Instagram</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="display-1">
+                    Formater du contenu avec Bootstrap
+                    <small class="text-muted">Les formulaires</small>
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-4">
+                <h2>Commentaires</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Votre adresse email</label>
+                        <div class="input-group">
+                            <span class="input-group-text">@</span>
+                            <input id="email" class="form-control" type="email" placeholder="boris@example.com">
+                        </div>
+                        <div class="form-text"> Votre email sera conservé de façon sécurisé et confidentiel</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="commentaire" class="form-label">Votre commentaire</label>
+                        <textarea id="commentaire" class="form-control"></textarea>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="newsletter">
+                        <label for="newsletter" class="form-check-label">S'inscrire à la newsletter</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
