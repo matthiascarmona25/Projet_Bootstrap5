@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formation Bootstrap - Instagram</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Les menus de navigation (nav) -->
+        <h1>Navs</h1>
+        <div class="row mt-4">
+            <div class="col">
+                <nav class="nav nav-pills nav-fill">
+                    <a class="nav-link active" aria-current="true" href="#">Lien 1</a>
+                    <a class="nav-link" href="#">Lien 2</a>
+                    <a class="nav-link" href="#">Lien 3</a>
+                </nav>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col">
+                <nav class="nav nav-pills nav-justified">
+                    <a class="nav-link active" aria-current="true" href="#">Lien 1</a>
+                    <a class="nav-link" href="#">Lien 2</a>
+                    <a class="nav-link" href="#">Lien 3</a>
+                </nav>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col">
+                <nav class="nav nav-pills flex-column flex-lg-row">
+                    <a class="nav-link active" aria-current="true" href="#">Lien 1</a>
+                    <a class="nav-link" href="#">Lien 2</a>
+                    <a class="nav-link" href="#">Lien 3</a>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Les onglets (nav tabs) -->
+        <hr>
+        <h1>Nav tabs</h1>
+        <div class="row mt-4">
+            <div class="col">
+                <nav class="nav nav-tabs" id="onglet" role="tablist">
+                    <a class="nav-link active" id="accueil-tab" data-toggle="tab" href="#accueil" role="tab" aria-selected="true" aria-controls="accueil">Accueil</a>
+                    <a class="nav-link" id="parametres-tab" data-toggle="tab" href="#parametres" role="tab" aria-selected="false" aria-controls="parametres">Paramètres</a>
+                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-selected="false" aria-controls="contact">Contact</a>
+                </nav>
+
+                <div class="tab-content" id="onglets-contenu">
+                    <div class="tab-pane fade show active" id="accueil" role="tabpanel" aria-labelledby="accueil-tab">
+                        <h1>Accueil</h1>
+                    </div>
+                    <div class="tab-pane fade" id="parametres" role="tabpanel" aria-labelledby="parametres-tab">
+                        <h1>Paramètres</h1>
+                    </div>
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                        <h1>Contact</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
